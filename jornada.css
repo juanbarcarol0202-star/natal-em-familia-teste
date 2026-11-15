@@ -21,3 +21,4 @@ h1,h2,h3,h4{font-family:'Fredoka','Segoe UI',system-ui,sans-serif;letter-spacing
 .datas-card{grid-template-columns:1fr}.datas-card select{min-height:58px;width:100%;font:inherit;font-size:1.05rem;padding:10px;border:2px solid #9aae9a;border-radius:9px;background:#fff;color:#183c2d}
 
 .companheiro{width:72px;height:100px}.companheiro img{max-width:72px;max-height:98px}.companheiro-fala{display:block;top:-25px;right:10px;font-size:.66rem;max-width:155px;white-space:normal;width:max-content}
+.pessoas .boneco img[src*="avatar-"]{transform:scale(2);transform-origin:50% 0%}
