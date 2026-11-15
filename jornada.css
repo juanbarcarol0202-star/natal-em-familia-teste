@@ -22,3 +22,5 @@ h1,h2,h3,h4{font-family:'Fredoka','Segoe UI',system-ui,sans-serif;letter-spacing
 
 .companheiro{width:72px;height:100px}.companheiro img{max-width:72px;max-height:98px}.companheiro-fala{display:block;top:-25px;right:10px;font-size:.66rem;max-width:155px;white-space:normal;width:max-content}
 .pessoas .boneco img[src*="avatar-"]{transform:scale(2);transform-origin:50% 0%}
+
+.pessoas .boneco img[src*="rosto-"]{object-fit:cover;object-position:center;transform:scale(.8);transform-origin:center}
