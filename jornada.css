@@ -8,3 +8,11 @@ html{font-size:18px}body{background:radial-gradient(ellipse at 50% 0,#387b67,#16
 .casa-cena{position:relative;overflow:hidden;border:5px solid #6b482b;border-radius:12px;box-shadow:0 6px 0 #382616;margin:20px 0 26px;background:#193d2e}.casa-cena img{display:block;width:100%;height:auto;image-rendering:auto}.casa-cena span{position:absolute;bottom:8px;left:8px;padding:6px 10px;border-radius:6px;color:#fff7e3;background:#183a2de8;font-size:.68rem;letter-spacing:.1em;font-weight:bold}.cena-dinamicas{margin:14px 0 20px}
 /* Tipografia de leitura simples com atmosfera lúdica. */
 h1,h2,h3,h4{font-family:'Fredoka','Segoe UI',system-ui,sans-serif;letter-spacing:-.02em;font-weight:700;line-height:1.14}.etapa,.jtop,.eyebrow{letter-spacing:.06em}.spotbody small{font-size:.88rem}.nota{font-size:.9rem}.links a{font-size:.9rem}.escolha small{font-size:.95rem}
+
+.ajuda-box{background:#e3eedf;color:#244536;border:3px solid #afcaa7;border-radius:12px;padding:14px;margin:-3px 0 16px}.ajuda-box strong{font-size:.96rem}.ajuda-chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:9px}.ajuda-chips button{background:#fff9ea;color:#234535;border:2px solid #adbfaa;border-radius:9px;padding:10px;font-size:.9rem;min-height:45px}.ajuda-chips button.ativo{background:#ffe2a1;border-color:#ba822c}
+
+.datas-card{display:grid;grid-template-columns:1fr 1fr;gap:14px}.datas-card label{font-size:.9rem;font-weight:700;display:flex;flex-direction:column;gap:7px}.datas-card input{min-width:0;width:100%;font-size:1rem;padding:11px;border:2px solid #aebea8;border-radius:9px;color:#213d2a;background:#fff}
+/* Retratos novos acompanham o enquadramento dos personagens existentes. */
+.boneco img[src*="recorte-"]{transform:scale(1.65);transform-origin:center 18%}
+/* O personagem acompanha sem cobrir os cartões de leitura. */
+.companheiro{width:58px;height:82px;right:3px;bottom:2px;opacity:.8}.companheiro img{max-width:58px;max-height:80px}.companheiro-fala{display:none}.borda-cena{opacity:.55}
